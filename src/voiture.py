@@ -15,7 +15,8 @@ class Voiture:
         """Constructeur"""
         self.nom = nom
         self.couleur = couleur
-        self.vitesse = 0
+        self.vitesse = 684563
+        
 
     def __str__(self):
       return f"La voiture {self.nom} de couleur {self.couleur} roule à {self.vitesse} km/h."

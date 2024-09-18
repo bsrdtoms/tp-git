@@ -2,7 +2,7 @@ class Moto:
     def __init__(self, nom, couleur):
         self.couleur = couleur
         self.nom = nom
-        self.vitesse = 0
+        self.vitesse = 6464
 
     def accelere(self, increment):
         if increment > 15:
